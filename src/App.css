@@ -1,0 +1,68 @@
+.Box {
+width: 80%;
+overflow: hidden;
+margin: auto;
+margin-top: 100px;
+}
+
+.Foto {
+width: 45%;
+height:700px;
+float:left;
+}
+
+.Foto img {
+  width: 100%;
+}
+
+.Deskripsi {
+width: 50%;
+overflow: hidden;
+float: left;
+margin-left:30px;
+
+}
+
+.Deskripsi .Info{
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
+font-family: 'Quicksand', sans-serif;
+}
+
+.Deskripsi .Judul{
+  margin:0;
+  font-family: 'Squada One', cursive;
+}
+
+.Deskripsi .Harga{
+  font-size: 20px;
+  font-weight: 500;
+font-family: 'Quicksand', sans-serif;
+}
+
+.Deskripsi .kategori{
+  color: #acaeb2;
+font-family: 'Quicksand', sans-serif;
+}
+
+.Deskripsi a{
+  margin-top: 20px;
+  background:rgb(66, 4, 236);  
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 0.8s;
+  padding: 10px 20px 10px 20px;
+}
+
+.Deskripsi a:hover
+{
+color: #fff;
+background:green;
+transition: all 0.8s;
+cursor: pointer;
+}
+
